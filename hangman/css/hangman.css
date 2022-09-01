@@ -1,0 +1,102 @@
+main {
+  margin: 0 auto;
+  text-align: center;
+  font-family: sans-serif;
+}
+
+/* Start Page */
+
+.start-button {
+  margin: 0 auto;
+  border: solid 3px black;
+  border-radius: 4px;
+  background-color: transparent;
+  padding: 0.25em 0.5em;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+/* Game Page */
+
+.game-category {
+  font-size: 1.5em;
+  margin-top: 0;
+}
+
+.game-answer {
+  font-size: 3em;
+  font-weight: bold;
+}
+
+.game-results-balloon {
+  font-size: 2.5rem;
+  margin-top: 0.1em;
+}
+
+.game-results-text {
+  margin-bottom: 0;
+  margin-top: 0.5em;
+  margin-bottom: 0;
+  text-align: right;
+}
+
+.game-results-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  font-weight: bold;
+}
+
+.game-section-container {
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.game-buttons-flex {
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 0.25em
+}
+
+.game-remaining-balloons {
+  margin: 1em auto 0 auto;
+}
+
+.game-button-letter {
+  border: solid 4px black;
+  border-radius: 4px;
+  background-color: transparent;
+  font-size: 1.75rem;
+  font-weight: bold;
+  width: 1.75em;
+  height: 1.75em;
+}
+
+.game-button-letter:disabled {
+  pointer-events: none;
+  opacity: 0.65;
+}
+
+.incorrect-answer {
+  text-decoration: line-through;
+}
+
+/* Results Page */
+
+.results-button {
+  margin: 0 auto;
+  border: solid 3px black;
+  border-radius: 4px;
+  background-color: transparent;
+  padding: 0.25em 0.5em;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.results-score {
+  font-size: 1.25em;
+}
