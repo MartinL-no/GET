@@ -6,7 +6,7 @@ const model = {
   // 2. Inputs
   inputs: {
     drawPage: {
-      currentCategoryId: 0,
+      currentCategoryId: null,
       currentAnswer: '',
       currentInput: '',
       remainingBalloons: 0,
@@ -15,8 +15,8 @@ const model = {
   },
   // 3. Common data
   answers: [
-    {id: 1, category: 'Phrases', answer: 'break a leg'},
-    {id: 2, category: 'Movies', answer: 'the witches'},
+    {id: 0, category: 'Phrases', answer: 'break a leg'},
+    {id: 1, category: 'Movies', answer: 'the witches'},
     {id: 2, category: 'Eat & Drink', answer: 'mustard'},
   ],
   scores: {

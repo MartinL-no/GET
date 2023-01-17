@@ -1,6 +1,7 @@
 function updateViewGame() {
   const currentCategoryId = model.inputs.drawPage.currentCategoryId
   const category = model.answers[currentCategoryId].category
+  console.log(category)
   const remainingBalloons = model.inputs.drawPage.remainingBalloons;
 
 
